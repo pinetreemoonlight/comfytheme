@@ -1,42 +1,556 @@
-/* Import existing CSS */
+@import url("https://nyri4.github.io/donators/donators.css");
+:root .buttons__36852 {
+  transition: opacity 150ms;
+}
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 {
+  position: fixed;
+  bottom: 26.5px;
+  left: 327.5px;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  min-width: unset;
+}
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f {
+  width: 40px !important;
+  height: 40px !important;
+}
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f > svg {
+  contain: unset;
+}
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f foreignObject {
+  width: 100% !important;
+  height: 100% !important;
+}
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f .pointerEvents__585e6 {
+  x: 31px;
+  y: 31px;
+  ry: var(--status-radius);
+  width: 12px;
+  height: 12px;
+}
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f:hover {
+  opacity: 1;
+}
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f + .nameTag__77ab2 {
+  display: none;
+}
+:root .content__76dcf > :nth-child(2):not(.chat__52833),
+:root .callContainer__486b0,
+:root .gatedContent__18838,
+:root .chat__52833 > .content__01e65 > .pageContainer__853b6,
+:root .forumOrHome__8b95a + .content__01e65 > .container__93316,
+:root .container__03ec9,
+:root .background__2fff8,
+:root .page_e5cc79 {
+  z-index: 2;
+}
+:root .chat__52833 .form_d8a4a1 {
+  padding-left: 66px;
+}
+:root .chat__52833 .form_d8a4a1 .wrapper__57349 {
+  z-index: unset;
+}
+:root .chat__52833 .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::after,
+:root .chat__52833 .form_d8a4a1 .wrapper__57349::after {
+  position: absolute;
+  content: "";
+  bottom: 2px;
+  left: -50px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--background-secondary);
+  border-radius: calc(var(--avatar-radius) + 2px);
+}
+:root .typing__6fd1d {
+  left: 66px;
+  right: 26px;
+}
+:root .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+:root .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+  background-color: var(--brand-experiment);
+}
+:root .container__3b581 {
+  margin-left: 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+:root .spamBanner_b5e5bf {
+  position: relative;
+  flex-direction: column;
+  left: 56px;
+  bottom: 8px;
+  width: 330px;
+  height: fit-content;
+  row-gap: 30px;
+}
+:root .spamBanner_b5e5bf .bannerTextContainer__220b6 {
+  min-width: 0;
+}
+:root .spamBanner_b5e5bf .actionButtons__459a9 {
+  justify-content: space-around;
+}
+:root .messagesErrorBar__82c21 {
+  border-radius: 15px;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+:root .messagesErrorBar__82c21:active {
+  margin-bottom: 14px;
+}
+:root .newMessagesBar__8b272 {
+  background-color: var(--background-accent);
+  border-radius: 50px;
+  margin-top: 5px;
+}
+:root .message_ccca67.mentioned_fa6fd2 {
+  background-color: var(--mention-color-background);
+}
+:root .message_ccca67.mentioned_fa6fd2::before {
+  background: var(--mention-color-bar);
+  padding: 1px;
+}
+:root .message_ccca67.mentioned_fa6fd2:hover {
+  background-color: var(--mention-color-hover) !important;
+}
+:root .wrapper_f5f4c9:not([style]) {
+  position: relative;
+  color: var(--brand-experiment);
+  background: transparent;
+}
+:root .wrapper_f5f4c9:not([style])::after {
+  content: "";
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-experiment);
+  border-radius: inherit;
+}
+:root .jumpToPresentBar__69174,
+:root .jumpToPresentBar__69174:active {
+  margin-bottom: 13px;
+  border-radius: 20px;
+  padding: 0;
+}
+:root .autocompleteRow__2a1b9 {
+  padding: 0;
+}
+:root .autocompleteRow__2a1b9 .base__87e58 {
+  border-radius: 0;
+}
+:root .autocompleteRow__2a1b9:first-of-type,
+:root .autocompleteRow__2a1b9 .option__2b069 {
+  background-color: var(--background-tertiary);
+}
+:root .autocomplete__743a5 {
+  background: var(--background-secondary-alt);
+}
+:root .categoryHeader__70c8e,
+:root .autocomplete__743a5 {
+  background: var(--background-secondary);
+}
+:root .selected-3H3-RC {
+  background: var(--background-primary);
+}
+:root .sprite__294b3 {
+  filter: var(--colored-emoji) !important;
+}
+:root #emoji-picker-tab .contents__322f4,
+:root #sticker-picker-tab .contents__322f4,
+:root #bd-emotes-tab .contents__322f4 {
+  text-indent: 100%;
+  overflow: hidden;
+}
+:root .navList__5c9f4 > *:not(#gif-picker-tab).navButton_b588d0::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+:root .navList__5c9f4 #sticker-picker-tab.navButton_b588d0::after {
+  background-image: url("https://i.imgur.com/S79punc.png");
+}
+:root .navList__5c9f4 #emoji-picker-tab.navButton_b588d0::after {
+  background-image: url("https://i.imgur.com/YOshExa.png");
+}
+:root .navList__5c9f4 #bd-emotes-tab.navButton_b588d0::after {
+  background-image: url("https://i.imgur.com/efz6JwF.png");
+}
+:root .navList__5c9f4 .navButton_b588d0 {
+  width: 40px;
+  padding: 8px;
+}
+:root .navButtonActive__0c878,
+:root .emojiItem_de65fd.emojiItemSelected__023be {
+  background-color: rgba(110, 133, 211, 0.1294117647);
+}
+:root .imageLoading_fb7de7 {
+  background-image: none !important;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+}
+:root .contentWrapper_e0bb2c {
+  grid-row-gap: 20px;
+  padding-top: 8px;
+}
+:root .contentWrapper_e0bb2c .arrow_cb03b8 {
+  display: none;
+}
+:root .stickerInspected__29120 .inspectedIndicator__0c5e3 {
+  background-color: rgba(110, 133, 211, 0.1294117647);
+}
+:root .attachButton__5f6dc .attachButtonPlus_fd0021,
+:root .attachButton__5f6dc:hover .attachButtonPlus_fd0021 {
+  fill: var(--chat-buttons);
+}
+:root .buttonWrapper_bd4bd7,
+:root .icon__27d76 {
+  color: var(--chat-buttons);
+}
+:root .contentWarningPopout__84e38 {
+  background-color: var(--background-secondary);
+}
+:root .scroller__I've modified the `main.css` to ensure the banners display correctly. Here is the updated CSS:
+
+```css
 @import url("https://nyri4.github.io/donators/donators.css");
 
-/* Ensure all avatar elements are square */
-:root .avatar__1BDn8e, 
-:root .avatar__2CnYYb, 
-:root .avatar__3H6Bst,
-:root .avatar__1Q1f5Z,
-:root .avatar__2OiH__,
-:root .avatar__2OiH__ .container__2jHpO_,
-:root .avatar__2OiH__ .container__3iGaxp > .avatar__1Q1f5Z {
-    width: 40px !important;
-    height: 40px !important;
-    border-radius: var(--avatar-radius, 0) !important; /* Ensure icons remain square */
+:root {
+  --status-radius: 50%;
+  --avatar-radius: 50%;
+  --brand-experiment: #7289da;
+  --background-secondary: #36393f;
+  --background-accent: #4f545c;
+  --mention-color-background: #faa81a;
+  --mention-color-bar: #f47b00;
+  --mention-color-hover: #faae43;
+  --background-secondary-alt: #2f3136;
+  --background-primary: #36393f;
+  --background-tertiary: #292b2f;
+  --chat-buttons: #b9bbbe;
 }
 
-/* Ensure SVG elements inside avatars are square */
-:root .avatar__1BDn8e > svg, 
-:root .avatar__2CnYYb > svg, 
-:root .avatar__3H6Bst > svg,
-:root .avatar__1Q1f5Z > svg {
-    border-radius: var(--avatar-radius, 0) !important; /* Ensure SVGs remain square */
+:root .buttons__36852 {
+  transition: opacity 150ms;
 }
 
-/* Ensure status indicators are square */
-:root .pointerEvents__585e6[fill="#23a55a"],
-:root .pointerEvents__585e6[fill="#f0b232"],
-:root .pointerEvents__585e6[fill="#f23f43"],
-:root .pointerEvents__585e6[fill="#80848e"],
-:root .pointerEvents__585e6[fill="#593695"] {
-    rx: var(--status-radius, 0) !important;
-    ry: var(--status-radius, 0) !important;
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 {
+  position: fixed;
+  bottom: 26.5px;
+  left: 327.5px;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  min-width: unset;
 }
 
-/* Ensure server icons are square */
-:root .wrapper__9916c foreignObject,
-:root .wrapperSimple__9e2b0,
-:root .folderIconWrapper__11165,
-:root .expandedFolderBackground_b1385f,
-:root .flexChild__3da10 .avatarUploaderInner__19bef {
-    border-radius: var(--server-radius, 0) !important;
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f > svg {
+  contain: unset;
+}
+
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f foreignObject {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f .pointerEvents__585e6 {
+  x: 31px;
+  y: 31px;
+  ry: var(--status-radius);
+  width: 12px;
+  height: 12px;
+}
+
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f:hover {
+  opacity: 1;
+}
+
+:root .panels__58331 > .container_debb33 > .avatarWrapper__500a6 > .avatar_f8541f + .nameTag__77ab2 {
+  display: none;
+}
+
+:root .content__76dcf > :nth-child(2):not(.chat__52833),
+:root .callContainer__486b0,
+:root .gatedContent__18838,
+:root .chat__52833 > .content__01e65 > .pageContainer__853b6,
+:root .forumOrHome__8b95a + .content__01e65 > .container__93316,
+:root .container__03ec9,
+:root .background__2fff8,
+:root .page_e5cc79 {
+  z-index: 2;
+}
+
+:root .chat__52833 .form_d8a4a1 {
+  padding-left: 66px;
+}
+
+:root .chat__52833 .form_d8a4a1 .wrapper__57349 {
+  z-index: unset;
+}
+
+:root .chat__52833 .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f::after,
+:root .chat__52833 .form_d8a4a1 .wrapper__57349::after {
+  position: absolute;
+  content: "";
+  bottom: 2px;
+  left: -50px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--background-secondary);
+  border-radius: calc(var(--avatar-radius) + 2px);
+}
+
+:root .typing__6fd1d {
+  left: 66px;
+  right: 26px;
+}
+
+:root .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+:root .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+  background-color: var(--brand-experiment);
+}
+
+:root .container__3b581 {
+  margin-left: 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+:root .spamBanner_b5e5bf {
+  position: relative;
+  flex-direction: column;
+  left: 56px;
+  bottom: 8px;
+  width: 330px;
+  height: fit-content;
+  row-gap: 30px;
+}
+
+:root .spamBanner_b5e5bf .bannerTextContainer__220b6 {
+  min-width: 0;
+}
+
+:root .spamBanner_b5e5bf .actionButtons__459a9 {
+  justify-content: space-around;
+}
+
+:root .messagesErrorBar__82c21 {
+  border-radius: 15px;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+
+:root .messagesErrorBar__82c21:active {
+  margin-bottom: 14px;
+}
+
+:root .newMessagesBar__8b272 {
+  background-color: var(--background-accent);
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
+:root .message_ccca67.mentioned_fa6fd2 {
+  background-color: var(--mention-color-background);
+}
+
+:root .message_ccca67.mentioned_fa6fd2::before {
+  background: var(--mention-color-bar);
+  padding: 1px;
+}
+
+:root .message_ccca67.mentioned_fa6fd2:hover {
+  background-color: var(--mention-color-hover) !important;
+}
+
+:root .wrapper_f5f4c9:not([style]) {
+  position: relative;
+  color: var(--brand-experiment);
+  background: transparent;
+}
+
+:root .wrapper_f5f4c9:not([style])::after {
+  content: "";
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-experiment);
+  border-radius: inherit;
+}
+
+:root .jumpToPresentBar__69174,
+:root .jumpToPresentBar__69174:active {
+  margin-bottom: 13px;
+  border-radius: 20px;
+  padding: 0;
+}
+
+:root .autocompleteRow__2a1b9 {
+  padding: 0;
+}
+
+:root .autocompleteRow__2a1b9 .base__87e58 {
+  border-radius: 0;
+}
+
+:root .autocompleteRow__2a1b9:first-of-type,
+:root .autocompleteRow__2a1b9 .option__2b069 {
+  background-color: var(--background-tertiary);
+}
+
+:root .autocomplete__743a5 {
+  background: var(--background-secondary-alt);
+}
+
+:root .categoryHeader__70c8e,
+:root .autocomplete__743a5 {
+  background: var(--background-secondary);
+}
+
+:root .selected-3H3-RC {
+  background: var(--background-primary);
+}
+
+:root .sprite__294b3 {
+  filter: var(--colored-emoji) !important;
+}
+
+:root #emoji-picker-tab .contents__322f4,
+:root #sticker-picker-tab .contents__322f4,
+:root #bd-emotes-tab .contents__322f4 {
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+:root .navList__5c9f4 > *:not(#gif-picker-tab).navButton_b588d0::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+:root .navList__5c9f4 #sticker-picker-tab.navButton_b588d0::after {
+  background-image: url("https://i.imgur.com/S79punc.png");
+}
+
+:root .navList__5c9f4 #emoji-picker-tab.navButton_b588d0::after {
+  background-image: url("https://i.imgur.com/YOshExa.png");
+}
+
+:root .navList__5c9f4 #bd-emotes-tab.navButton_b588d0::after {
+  background-image: url("https://i.imgur.com/efz6JwF.png");
+}
+
+:root .navList__5c9f4 .navButton_b588d0 {
+  width: 40px;
+  padding: 8px;
+}
+
+:root .navButtonActive__0c878,
+:root .emojiItem_de65fd.emojiItemSelected__023be {
+  background-color: rgba(110, 133, 211, 0.1294117647);
+}
+
+:root .imageLoading_fb7de7 {
+  background-image: none !important;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+}
+
+:root .contentWrapper_e0bb2c {
+  grid-row-gap: 20px;
+  padding-top: 8px;
+}
+
+:root .contentWrapper_e0bb2c .arrow_cb03b8 {
+  display: none;
+}
+
+:root .stickerInspected__29120 .inspectedIndicator__0c5e3 {
+  backgroundHere's the corrected `main.css`:
+
+```css
+@import url("https://nyri4.github.io/donators/donators.css");
+
+:root .spamBanner_b5e5bf {
+  position: relative;
+  flex-direction: column;
+  left: 56px;
+  bottom: 8px;
+  width: 330px;
+  height: fit-content;
+  row-gap: 30px;
+}
+
+:root .spamBanner_b5e5bf .bannerTextContainer__220b6 {
+  min-width: 0;
+}
+
+:root .spamBanner_b5e5bf .actionButtons__459a9 {
+  justify-content: space-around;
+}
+
+:root .messagesErrorBar__82c21 {
+  border-radius: 15px;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+
+:root .messagesErrorBar__82c21:active {
+  margin-bottom: 14px;
+}
+
+:root .newMessagesBar__8b272 {
+  background-color: var(--background-accent);
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
+:root .message_ccca67.mentioned_fa6fd2 {
+  background-color: var(--mention-color-background);
+}
+
+:root .message_ccca67.mentioned_fa6fd2::before {
+  background: var(--mention-color-bar);
+  padding: 1px;
+}
+
+:root .message_ccca67.mentioned_fa6fd2:hover {
+  background-color: var(--mention-color-hover) !important;
+}
+
+:root .wrapper_f5f4c9:not([style]) {
+  position: relative;
+  color: var(--brand-experiment);
+  background: transparent;
+}
+
+:root .wrapper_f5f4c9:not([style])::after {
+  content: "";
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-experiment);
+  border-radius: inherit;
 }
