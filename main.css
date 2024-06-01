@@ -1,4 +1,26 @@
+/* Import existing CSS */
 @import url("https://nyri4.github.io/donators/donators.css");
+
+/* Ensure all avatar elements are square */
+:root .avatar__1BDn8e, 
+:root .avatar__2CnYYb, 
+:root .avatar__3H6Bst,
+:root .avatar__1Q1f5Z,
+:root .avatar__2OiH__,
+:root .avatar__2OiH__ .container__2jHpO_,
+:root .avatar__2OiH__ .container__3iGaxp > .avatar__1Q1f5Z {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0 !important; /* Ensure icons remain square */
+}
+
+/* Ensure SVG elements inside avatars are square */
+:root .avatar__1BDn8e > svg, 
+:root .avatar__2CnYYb > svg, 
+:root .avatar__3H6Bst > svg,
+:root .avatar__1Q1f5Z > svg {
+    border-radius: 0 !important; /* Ensure SVGs remain square */
+}
 
 :root .buttons__36852 {
   transition: opacity 150ms;
