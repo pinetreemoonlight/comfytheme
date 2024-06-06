@@ -2245,13 +2245,13 @@
 }
 
 /* 2024-06-06: FIXED COMFY NOT SHOWING USER BANNERS: Remove circle behind square user profile pic in DM sidebar by removing "none" after mask: and -webkit-mask: */
-
+/* EDIT: also makes DM list avatars look weird, so I undid this */
 :root .wrapper__3ed10 foreignObject,
 :root .callAvatarMask__11fbc foreignObject,
 :root .avatarContainer__37747 foreignObject,
 :root .avatarMasked__0b3c8 {
-  mask: ;
-  -webkit-mask: ;
+  mask: none;
+  -webkit-mask: none;
 }
 :root .wrapper__3ed10,
 :root .avatar__991e2,
