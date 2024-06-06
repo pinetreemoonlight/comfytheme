@@ -6,4 +6,4 @@ Instructions: Open `comfy.theme.css` on your PC and change
 
 to 
 
-```https://raw.githubusercontent.com/pinetreemoonlight/comfytheme/main/main.css```
+````@import "https://raw.githubusercontent.com/pinetreemoonlight/comfytheme/main/main.css";```
