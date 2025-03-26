@@ -169,27 +169,7 @@
   --input-background: #1e2233;
 }	
 
-/* 2025.03.26: new: color the overlay in right-side DM bar (About me, member since etc) */
-.overlay_c0bea0,
-.section_c7ac92,
-.header_c7ac92,
-.listRow__9d78f {
-  background-color: rgba(53, 65, 62, 1) !important;
-}
-.item_c1e9c4.labelContainer_c1e9c4.colorDefault_c1e9c4 {
-  background-color: rgba(32,39,37,255) !important;
-}
 
-/* Color the top left search bar and the menu that opens when you click it */
-.searchBarComponent__35e86 {
-  background-color: rgba(32,39,37,255) !important;
-}
-.input_ac6cb0 {
-  background-color: rgba(32,39,37,255);
-}
-.input_ac6cb0::placeholder {
-  color: #aaa; /* optional: lighter placeholder text */
-}
 
 .theme-light {
   --background-primary: #23283d;
