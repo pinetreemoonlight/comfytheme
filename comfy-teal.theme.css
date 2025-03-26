@@ -82,7 +82,7 @@
   /* ═══════『 📜 Server/channel list 』═══════ */
 
   /* Mention - Default value : #F04747 */
-  --mention-color: #f04747;
+  --mention-color: #34453e;
 
   /* Unread - Default value : #7289DA */
   --unread-color: #7289da;
@@ -90,13 +90,13 @@
   /*  『 🔴 Mention colors in chat 』 */
 
   /* Bar on the right - Default value : #C66262 */
-  --mention-color-bar: #c66262;
+  --mention-color-bar: #62c69e;
 
   /* Background - Default value : #C662621F */
-  --mention-color-background: #c662621f;
+  --mention-color-background: rgba(53, 65, 62, 1);
 
   /* On hover - Default value : #C6626226 */
-  --mention-color-hover: #c6626226;
+  --mention-color-hover: #62c69e1F;
 
   /* ═══════『 💬 Chat buttons 』═══════ */
 
@@ -145,21 +145,21 @@
 
 .theme-dark {
   --background-primary: rgba(22,26,25,255); /* middle chat background default rgb(30, 30, 30) */
-  --background-secondary: rgba(32,39,37,255); /* left sidebar (friend list) default rgb(20,20,20) */
+  --background-secondary: rgba(32,39,37,255); /* left friend list default rgb(20,20,20) */
   --background-secondary-alt: rgba(32,39,37,255); /* right sidebar default rgb(15,15,15)*/
   --background-tertiary: rgba(53,65,62,255); /* top border default rgb(1D0,10,10)*/
   --background-accent: #5b7fa8;
 
-  --modal-background: #23283d;
+  --modal-background: rgba(32,39,37,255);
   --background-mobile-primary: #23283d;
   --background-mobile-secondary: #1e2233;
-  --channeltextarea-background: rgba(32,39,37,255);
+  --channeltextarea-background: rgba(32,39,37,255);  /* chat input bar */
   --background-message-hover: transparent;
   --background-modifier-hover: #00000010;
   --background-modifier-active: transparent;
   --background-modifier-selected: rgba(29,37,34,255);
   --deprecated-card-bg: #12141f63;
-  --background-floating: rgb(0,0,0);
+  --background-floating: rgba(53, 65, 62, 1);  /* timezones background */
   --deprecated-quickswitcher-input-background: #101320;
   --elevation-low: none;
   --scrollbar-auto-thumb: #121722;
@@ -167,6 +167,28 @@
   --scrollbar-thin-thumb: #141925;
   --activity-card-background: #101320;
   --input-background: #1e2233;
+}	
+
+/* 2025.03.26: new: color the overlay in right-side DM bar (About me, member since etc) */
+.overlay_c0bea0,
+.section_c7ac92,
+.header_c7ac92,
+.listRow__9d78f {
+  background-color: rgba(53, 65, 62, 1) !important;
+}
+.item_c1e9c4.labelContainer_c1e9c4.colorDefault_c1e9c4 {
+  background-color: rgba(32,39,37,255) !important;
+}
+
+/* Color the top left search bar and the menu that opens when you click it */
+.searchBarComponent__35e86 {
+  background-color: rgba(32,39,37,255) !important;
+}
+.input_ac6cb0 {
+  background-color: rgba(32,39,37,255);
+}
+.input_ac6cb0::placeholder {
+  color: #aaa; /* optional: lighter placeholder text */
 }
 
 .theme-light {
@@ -182,6 +204,70 @@
   --header-secondary: #b1b5b9;
   --text-normal: #8e9297;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
